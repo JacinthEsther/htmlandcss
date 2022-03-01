@@ -1,0 +1,348 @@
+*{
+    font-family: "Poppins", sans-serif;
+
+}
+
+body{
+    margin: 0;
+
+}
+
+.top-header-container{
+    padding: 1vh 10%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: linear-gradient(rgba(0,0,0,0.527),rgba(0,0,0,0.5)),
+    url("https://www.sampleposts.com/wp-content/uploads/2020/10/travel-quotes.jpg");
+}
+
+.top-header{
+    height: 98vh;
+}
+.nav{
+    display: flex;
+    justify-content:  space-between;
+    color: white;
+    align-items: center;
+}
+
+.nav div{
+    display: flex;
+}
+
+.nav div p{
+    margin-right: 20%;
+    font-size: 14px;
+}
+
+.nav button{
+    /* margin: unset; */
+    background-color: white;
+    color:black;
+    border-radius: 3px;
+    border: none;
+    font-weight: bold;
+    padding: 1% 3%;
+    height: 45px;
+    /* margin-top: 0.5%; */
+}
+
+.below-header{
+    width:100%;
+    height:90%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-text-holder{
+    text-align: center;
+    color: white;
+}
+.main-text-holder h1{
+    margin: 0;
+    font-weight: bold;
+    font-size:64px;
+    text-transform: capitalize;
+    line-height: 1.2em;
+}
+
+
+.main-text-holder p{
+    margin-top:18px;
+    font-size:14px;
+}
+
+.special-feature-container{
+    display: flex;
+    height: 8vh;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    margin: 10%;
+}
+
+.special-feature-container .special-feature-title {
+    text-align: center;
+    color: black;
+
+}
+.search-cover{
+    width:80%;
+    height:20vh;
+}
+
+.special-feature-title h4{
+    text-transform:uppercase;
+    margin-bottom:0;
+}
+
+.special-feature-title h1{
+    text-transform: capitalize; 
+    margin-top:1px;
+}
+
+.float-container{
+    position: absolute;
+    top: 75%;
+    width:100%;
+    height: 30%;
+    display: flex;
+    justify-content:center;
+    /* flex-direction: column; */
+
+}
+
+.toggle-search{
+    display: flex;
+    justify-content:space-between;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    height:30px;
+    width:20%;
+    padding:0 20px;
+    padding-top:10px;
+    background-color: white;
+}
+
+.icon-search1{
+    background-color: rgb(105,50,233);
+    border-radius:6px;
+    display:flex;
+    justify-content:space-between;
+    width:30%;
+    padding: 4% 8%;
+    font-weight:bold;
+}
+
+.icon-search2{
+    width:30%;
+    padding:4% 8%;
+    border-radius:6px;
+    background-color: white;
+    display:flex;
+    font-weight: bold;
+    justify-content: space-between;
+    color: rgb(105,50,233);
+    align-items: center;
+    border: 1px solid rgb(105, 50, 233)
+
+}
+
+.icon-search1 p{
+    margin:0;
+    font-size:13px;
+} 
+
+
+.search-location{
+    width:100%;
+    height:23vh;
+    box-shadow: 0px 4px 4px rgba(113,110,110,0.25);
+    border-bottom-left-radius:10px;
+    background-color: white;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    display: flex;
+    padding:2%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.options-container1{
+    display:flex;
+    border-radius: 10px; 
+    justify-content: space-between;
+    width: 40%;
+    padding:1% 2%;
+    border: 1px solid rgb(243,243,243);
+    height: 50%;
+
+}
+
+.options-container{
+    display: flex;
+    align-items: center;
+    width: 45%;
+}
+
+.options-container .options-icons{
+    background-color: rgb(236,236,236);
+    border-radius:14px;
+    padding: 8% 5%;
+    display: flex;
+    margin-right:15px;
+
+}
+
+.options-container .options-text{
+    color: black;
+}
+
+.options-container .options-text h4{
+    font-size: 16px;
+    margin: 0;
+    font-weight: bolder;
+}
+
+.options-container .options-text p{
+    font-size: 12px;
+    margin-top: 3px;
+    margin-bottom: 0;
+}
+
+.circle-plane{
+    border: 1px solid rgb(250,250,250);
+    border-radius:50%;
+    padding:1%;
+}
+
+.circle-plane img{
+    height: 30px;
+}
+
+.search-icon{
+    background-color: blue;
+    height: 20px;
+    width: 30px;
+    padding: 1%;
+    border-radius: 30%;
+    justify-content:center;
+    margin-left:9px;
+    border-radius:14px;
+    display: flex;
+    
+}
+
+.features{
+    margin-left: 10%;
+}
+
+.text1 h4{
+    background-color:blue;
+    height: 25px;
+    width: 50px;
+    padding: 0.8%;
+    border-radius: 30%;
+    justify-content:center;
+    margin-left:9px;
+    border-radius:14px;
+    display: flex;
+    color: white;
+}
+.text2 h4{
+    background-color:orange;
+    height: 25px;
+    width: 50px;
+    padding: 0.8%;
+    border-radius: 30%;
+    justify-content:center;
+    margin-left:9px;
+    border-radius:14px;
+    display: flex;
+    color: white;
+
+}
+
+.text3 h4{
+    background-color:rgb(250, 213, 144);
+    height: 25px;
+    width: 50px;
+    padding: 0.8%;
+    border-radius: 30%;
+    justify-content:center;
+    margin-left:9px;
+    border-radius:14px;
+    display: flex;
+    color: white;
+
+}
+.special-features-tag{
+    display:flex;
+}
+
+.image-container img{
+    border-radius:42%;
+    margin-left:60%;
+    height: 80%;
+    width: 85%;
+    margin-top: 10%;
+    
+}
+.image-container1 img{
+    border-radius:42%;
+    margin-left:-59%;
+    height: 60%;
+    width: 65%;
+    margin-top: 82%;
+    border:6px solid white;
+    background-color: white;
+}
+
+.A-compartment{
+    margin-top: 12%;
+    margin-left: 10%;
+}
+.Explore{
+    display: flex;
+    justify-content:space-between;
+    width: 90%;
+}
+
+.Explore button{
+    padding: 10px 20px;
+    height:40px;
+    border-radius: 4px;
+    text-align: left ;
+    width: 10%;
+    margin-top: 1%;
+}
+
+.Explore h4{
+    font-weight: bolder;
+}
+.Explore-images {
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+}
+.Explore-images2{
+    display:flex;
+    padding: 0.9%;
+    border-radius: 30%;
+    justify-content:center;
+    top: 7%;
+    position:absolute;
+    margin-left: 16%;
+    background-color: white;
+    height: 10px;
+    /* width: 20px; */
+    border-radius:50%;
+}
+.Explore-images2 h6{
+    margin-top: 3%;
+    margin-right: 4%;
+}
+
+.ex{
+    position: relative;
+}
