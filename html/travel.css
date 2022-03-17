@@ -15,6 +15,19 @@ body{
     background-image: linear-gradient(rgba(0,0,0,0.527),rgba(0,0,0,0.5)),
     url("https://www.sampleposts.com/wp-content/uploads/2020/10/travel-quotes.jpg");
 }
+.show_modal{
+    
+        background-color: white;
+        height:50vh;
+        width:30vw;
+        position:absolute;
+        top: 30%;
+        left: 35%;
+        border-radius: 10px;
+        box-shadow: 5px 6px 19px 10px #7d7d7d;
+        padding: 0.5%;
+    
+}
 
 .top-header{
     height: 98vh;
@@ -49,10 +62,25 @@ body{
 
 .below-header{
     width:100%;
-    height:90%;
+    height:70%;
     display:flex;
     align-items: center;
     justify-content: center;
+}
+.small-rectangle {
+    margin-top: -1%;
+    height:50%;
+    display:flex;
+    justify-content: center;
+    width: 50vw;
+}
+.small-rectangle button{
+    text-align: center;
+    color:rgb(105,50,233);
+    background-color: white;
+    border:solid 1px rgb(105,50,233) ;
+    border-radius:4px;
+    width: 100%;
 }
 
 .main-text-holder{
@@ -167,6 +195,15 @@ body{
     padding:2%;
     justify-content: space-between;
     align-items: center;
+    flex-direction: column;
+}
+
+.contained{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    width:90%;
+    margin-top:3%;
 }
 
 .options-container1{

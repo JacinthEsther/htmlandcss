@@ -1,0 +1,159 @@
+.top-most-container1{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 9%;
+    margin-top: 1%;
+}
+.top-most-container1 h4{
+    margin-top:5px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.top-most-container2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.innerLayer2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width:13%;
+}
+
+.innerLayer2 svg{
+    margin-top:27%;
+}
+.innerLayer{
+    background-color:orange;
+    width: 28%;
+    height: 80%;
+}
+.innerLayer h4{
+    text-align: center;
+
+}
+.show_modal{
+    
+    background-color: white;
+    height:7vh;
+    width:14vw;
+    position:absolute;
+    top: 1.3%;
+    left: 72%;
+    border-radius: 1px;
+    box-shadow: 1px 2px 2px 1px rgb(224, 238, 255);
+    padding: 0.5%;
+
+}
+
+.top-most{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width:89%;
+    margin-left:5%;
+    
+}
+.container{
+    background-color: rgb(224, 238, 255);
+}
+.top-container{
+    margin-left: 5.2%;
+    display:flex;
+    justify-content: space-between;
+    width: 90%;
+}
+
+.left-top-container{
+    display: flex;
+    flex-direction: column;
+    width: 120%;
+}
+
+.left-top-container h1{
+    font-size: 3rem;
+    font-weight: bold;
+    font-family:'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+
+}
+
+.first-name{
+    background-color:white;
+    width:40%;
+    height:3em;
+    
+}
+.first-name h4{
+    margin-left:3%;
+    margin-top: 3%;
+    color:rgb(90, 90, 90)
+}
+
+
+.first-last-name{
+    display: flex;
+    justify-content:space-between;
+    width:30%;
+}
+
+.email-address{
+    background-color:white;
+    width:30%;
+    height:4em;
+    margin-top:2%;
+}
+
+.email-address h4{
+    color:rgb(90, 90, 90);
+    margin-top: 2%;
+    margin-left:2%;
+}
+
+.last-in-here{
+    background-color:orange;
+    width:30%;
+    height:4em;
+    margin-top:2%;
+}
+
+.last-in-here h4{
+    text-align:center;
+    margin-top: 5.8%;
+    margin-left:2%;
+    font-size: 1.4em;
+}
+
+.right-top-container{
+    position: relative;
+    display:flex;
+    flex-direction:column;
+    width:40%;
+    margin-top: 5%;
+}
+
+.img2{
+    width: 150%;
+    /* height: 40%; */
+    margin-top:13%;
+    margin-left:-90%;
+}
+.img1{
+    margin-top:3%;
+    position:absolute;
+    margin-left: 6%;
+    box-shadow: 2px 2px 2px 1px rgb(224, 238, 255);
+    border-color: beige;
+}
+
+.img3{
+    margin-top:22%;
+    position:absolute;
+    margin-left: -110%;
+    box-shadow: 2px 2px 2px 1px rgb(224, 238, 255);
+    border-color: beige;
+}
